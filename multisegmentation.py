@@ -130,7 +130,7 @@ class MultiSegmentation:
 
 
 if __name__ == "__main__":
-    object = MultiSegmentation(show_area=False, images_path=r'C:\Users\sorek\Downloads\leg.webp', min_area=3000)
+    object = MultiSegmentation(show_area=False, images_path=r'dir', min_area=3000)
     plt.imshow(object.get_mask(0))
     object.view_all()
     plt.show()
